@@ -1,0 +1,83 @@
+<html>
+
+<head>
+	<title>Minha Loja</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+</head>
+
+<body>
+<header>
+	<h1>Super Loja</h1>
+</header>
+
+<nav>
+
+	<ul class="menu">
+
+	<li><a href="../index.html">Home<a></li>
+	
+	<li>Clientes
+		<ul class="submenu">
+		<li><a href="../clientes/cadastrar.html">Cadastrar<a></li>
+		<li><a href="../clientes/consultar.html">Consultar<a></li>
+		</ul>
+	</li>
+
+	<li>Produtos
+		<ul class="submenu">
+		<li><a href="cadastrar.html">Cadastrar<a></li>
+		<li><a href="consultar.html">Consultar<a></li>
+		</ul>
+	</li>
+	</ul>
+
+</nav>
+
+<article class="cadastro_cliente">
+<h2>Cadastrar Produto</h2>
+<p>
+	<form action="suporte_cadastrar.php" method="POST">
+		<p>
+			<label>Código</label>
+			<input type="text" size=10, name="codigo">
+		</p>
+
+		<p>
+			<label>Nome do Produto</label>
+			<input type="text" size=40, name="nome_produto">
+		</p>		
+		<p>
+			<label>Fornecedor</label>
+			<input type="text" size=40, name="fornecedor"></p>
+		<p>
+			<label>Tipo de Produto</label>
+			<input type="text" size=15, name="tipo_produto">
+		</p>
+		<p>
+			<label>Telefone SAC</label>
+			<input type="text" size=, name="telefone_SAC">
+		</p>
+		<p>
+			<label>Valor do Produtos</label>
+			<input type="text" size=14, name="valor_produto">
+		</p>
+		<p>
+			<label>Valor de Venda</label>
+			<input type="text" name="valor_venda">
+			<button>Calcular</button>
+		</p>   
+    	<p>
+    	<input type="submit" name="cadastrar" value="Confirmar">
+    	<input type="reset" value="Limpar">
+    	</p>
+	</form>
+</p>
+</article>
+
+<footer>
+<p>&copy; 2018 Superloja.com. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

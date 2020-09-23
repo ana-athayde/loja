@@ -1,0 +1,67 @@
+/* ---------------------------- */
+/* DROP DOWN MENU 				*/
+
+/* classe menu para elementos ul */
+ul.menu {
+	border: 1px solid LightGrey;
+	background-color: GhostWhite;
+}
+
+/* estilo para elemento li dentro do 
+elemento ul da classe .menu */
+ul.menu li{
+	display: inline-block;
+	color: #666;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight : bold;	
+}
+
+ul.menu li a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+/* estilo da pseudo-classe hand over sobre o menu */
+ul.menu li:hover {
+	background-color: dodgerblue;
+	color: white;
+}
+
+/* estilo da pseudo-classe hand over do li 
+sobre o ul da classe submenu, quando o li */
+ul.menu li:hover .submenu{
+	display: block;
+	position: absolute;	
+}
+
+/* classe submenu para elementos ul */
+ul.submenu{
+	display : none;	
+	padding-left:0px;
+	margin-top : 15px;
+	margin-left : -17px;
+}
+
+/* estilo para o elemento li que está
+dentro do elemento ul da classe .submenu */
+ul.submenu li {
+	display : block;
+	background-color : LightSalmon;		
+	color: GhostWhite;
+}
+
+/* estilo da pseudo-classe hand over sobre 
+o submenu */
+ul.submenu li:hover {
+	background-color: Salmon;
+}
+
+/* estilo do link que esta dentro do li do
+submenu */
+ul.submenu li a{
+	text-decoration : none;
+	color : inherit;
+}

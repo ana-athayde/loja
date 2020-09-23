@@ -1,0 +1,115 @@
+/* Centralizar Página de Tamanho Fixo */
+body{
+	margin:auto;	
+	width:800px;
+}
+
+/* Configurar o header e footer */
+header, footer {
+	padding: 1px; /* Espaçamento Interno */			
+	color: white; /* Cor do texto */
+	text-align: center; /* Texto centralizado */
+	background-color: dodgerblue; /* Cor de fundo */
+}
+
+/* Configurar a estrutura article geral */
+article {			
+	margin: 20px; /* Margem para fora do artigo */
+	padding: 20px; /* Espaçamento interno */
+	padding-top: 0px; /* Espaçamento interno superior */
+	border: 3px solid dodgerblue; /* Borda */
+	background-color: white; /* Cor de fundo */
+	text-align:center;
+}
+
+/* configurar a classe article.veiculo */
+article.veiculo{
+	display:inline-block;
+	width: 300px;
+}
+
+/* configura o tamanho da imagem que esta contida */
+article.veiculo img{
+	width:250px;
+	height:200px;
+}
+
+/* configurar a classe article.precos */
+article.precos {
+	border: 0px; /* Borda */	
+}
+
+article.precos table{
+	margin: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+article.precos table tr th{
+	padding: 10px;
+	background:dodgerblue;
+	color: white;
+}
+
+article.precos table tr {
+	border-bottom: 1px dashed dodgerblue;
+}
+
+article.precos table th, td {
+	padding: 10px;
+}
+
+/* configurar a classe article.proposta */
+article.proposta form{	
+	text-align:left;
+}
+
+article.proposta form label {
+	display:inline-block;
+	width: 150px;
+	text-align: left;
+	font-weight: bold;
+}
+
+article.proposta form input {
+	text-align: left;
+}
+
+article.proposta input[type="submit"] {
+	background-color: white;
+	border-color: blue;
+	border: 1px solid;
+	text-align:left;
+}				
+
+article.proposta input[type="reset"] {
+	background-color: darkgrey;
+	color: white;
+	border-color: blue;
+	border: 1px solid;
+}	
+
+
+/* configurar a classe article.proposta */
+article.cadastro_cliente form{	
+	text-align:left;
+}
+
+article.cadastro_cliente form label {
+	display:inline-block;
+	width: 130px;
+	text-align: left;
+	font-weight: bold;
+}
+
+article.cadastro_cliente form input {
+	text-align: left;
+}
+
+article.cadastro_cliente input[type="submit"] {
+	margin: 10px;
+}
+
+article.cadastro_cliente input[type="reset"] {
+	margin: 10px;
+}
