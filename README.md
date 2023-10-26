@@ -1,6 +1,6 @@
 # Projeto do Site de Programação para Internet
 
-Este é o repositório do projeto desenvolvido durante a disciplina de "Programação para Internet" do curso Técnico em Informática no IFSC Campus Lages. O projeto consiste em um site que foi desenvolvido em conjunto com o professor.
+Este é o repositório do projeto desenvolvido durante a disciplina de Programação para Internet no semestre 2018/2 do curso Técnico em Informática no IFSC Campus Lages. O projeto consiste em um site que foi desenvolvido em conjunto com o professor.
 
 ## Estrutura do Projeto
 
