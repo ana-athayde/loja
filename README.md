@@ -55,7 +55,7 @@ Para executar o projeto localmente, você pode seguir estas etapas:
 1. Clone este repositório em sua máquina local:
 
    ```bash
-   git clone https://github.com/ana-athayde/loja
+   git clone https://github.com/ana-athayde/loja_programacao_web
 
 2. Configure um ambiente de servidor web local, se necessário, para executar o projeto.
 
